@@ -1,0 +1,7 @@
+{
+  "A": {"B": {"distance": 10}, "C": {"distance": 15}, "D": {"distance": 20}, "E": {"distance": 25}, "priority": 1, "accessibility": 1, "waiting_time": 0.5, "cost": 2},
+  "B": {"A": {"distance": 10}, "C": {"distance": 5}, "D": {"distance": 10}, "E": {"distance": 15}, "priority": 2, "accessibility": 1.2, "waiting_time": 0.3, "cost": 1.5},
+  "C": {"A": {"distance": 15}, "B": {"distance": 5}, "D": {"distance": 10}, "E": {"distance": 20}, "priority": 1.5, "accessibility": 1, "waiting_time": 0.4, "cost": 2.5},
+  "D": {"A": {"distance": 20}, "B": {"distance": 10}, "C": {"distance": 10}, "E": {"distance": 5}, "priority": 2.5, "accessibility": 1.1, "waiting_time": 0.6, "cost": 3},
+  "E": {"A": {"distance": 25}, "B": {"distance": 15}, "C": {"distance": 20}, "D": {"distance": 5}, "priority": 3, "accessibility": 1.3, "waiting_time": 0.7, "cost": 3.5}
+}

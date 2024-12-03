@@ -1,0 +1,5 @@
+{
+  "A": {"B": {"distance": 200}, "C": {"distance": 100}, "priority": 1, "accessibility": 1, "waiting_time": 0.5, "cost": 2},
+  "B": {"A": {"distance": 200}, "C": {"distance": 150}, "priority": 2, "accessibility": 1.2, "waiting_time": 0.3, "cost": 1.5},
+  "C": {"A": {"distance": 100}, "B": {"distance": 150}, "priority": 1.5, "accessibility": 1, "waiting_time": 0.4, "cost": 2.5}
+}

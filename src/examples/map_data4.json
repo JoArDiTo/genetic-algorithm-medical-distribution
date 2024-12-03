@@ -1,0 +1,38 @@
+{
+    "PIURA": {
+        "priority": 1,
+        "accessibility": 2,
+        "waiting_time": 1,
+        "cost": 1,
+        "TUMBES": {
+            "distance": 200
+        },
+        "LAMBAYEQUE": {
+            "distance": 100
+        }
+    },
+    "TUMBES": {
+        "priority": 3,
+        "accessibility": 1,
+        "waiting_time": 2,
+        "cost": 2,
+        "PIURA": {
+            "distance": 200
+        },
+        "LAMBAYEQUE": {
+            "distance": 150
+        }
+    },
+    "LAMBAYEQUE": {
+        "priority": 2,
+        "accessibility": 1,
+        "waiting_time": 3,
+        "cost": 3,
+        "PIURA": {
+            "distance": 100
+        },
+        "TUMBES": {
+            "distance": 150
+        }
+    }
+}
